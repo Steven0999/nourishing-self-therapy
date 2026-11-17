@@ -157,6 +157,17 @@ h1 {
   text-decoration: underline;
 }
 
+.section-links a::after {
+  content: "";
+  flex: 0 0 auto;
+  inline-size: 0.45rem;
+  block-size: 0.45rem;
+  margin-inline-end: 0.2rem;
+  border-block-start: 1px solid;
+  border-inline-end: 1px solid;
+  transform: rotate(45deg);
+}
+
 h2 {
   margin-block: 1.75rem 0.5rem;
   font-size: 1.15rem;
